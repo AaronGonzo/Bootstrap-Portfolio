@@ -1,0 +1,72 @@
+body{
+  background-color: rgba(145, 143, 143, 0.637)
+}
+
+.img-style{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top:20px;
+}
+
+#portfolio{
+  border-right:2px black;
+
+}
+
+.headshot{
+  margin-left:5px;
+  margin-bottom:20px;
+  margin-top:20px;
+  width:100%;
+}
+
+h1{
+  margin-top: 30px;
+  margin-bottom:5px;
+  margin-left:20px;
+  padding-right:780px;
+  padding-left:20px;
+  color:#4aaaa5;
+  border-bottom: 3px black;
+
+}
+
+p{
+  margin-top:10px;
+}
+
+h3{
+  font-size: 20px;
+  padding:10px;
+  margin-top:10px;
+}
+
+h4{
+  margin-top:-40px;
+  font-size:15px;
+  margin-left:30px;
+  margin-bottom: 10px;
+  color:white;
+}
+#main-container{
+  background:white;
+  margin-top: 60px;
+  margin-bottom:60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  padding-bottom:80px;
+}
+
+button{
+  background-color:#4aaaa5;
+}
+
+
+footer{
+  text-align: center;
+  border-top: 5px solid #4aaaa5;
+  background-color:rgb(73, 73, 73);
+  padding: 20px;
+  color:white;
+}
