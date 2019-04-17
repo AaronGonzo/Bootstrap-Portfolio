@@ -1,72 +1,138 @@
-body{
-  background-color: rgba(145, 143, 143, 0.637)
+body {
+  background-color: rgba(145, 143, 143, 0.637);
 }
 
-.img-style{
+.img-style {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 10px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-#portfolio{
-  border-right:2px black;
-
+#name-navbar {
+  padding: 15px;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  margin-left: -50px;
 }
 
-.headshot{
-  margin-left:5px;
-  margin-bottom:20px;
-  margin-top:20px;
-  width:100%;
-}
-
-h1{
+.card {
   margin-top: 30px;
-  margin-bottom:5px;
-  margin-left:20px;
-  padding-right:780px;
-  padding-left:20px;
-  color:#4aaaa5;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+}
+
+#top-row {
+  margin-top: 20px;
+}
+
+#portfolio {
+  border-right: 2px black;
+}
+
+.headshot {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding-right: 780px;
+  padding-left: 20px;
+  color: #4aaaa5;
   border-bottom: 3px black;
-
+  font-family: "Oswald", sans-serif;
 }
 
-p{
+#about-me{
+  margin-left: 20px;
+  background: #4aaaa5;
+  color: white;
+}
+
+h5{
   margin-top:10px;
 }
 
-h3{
+p {
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-left: 5px;
+}
+
+#paragraph-1{
+  margin-top:30px;
+}
+
+.paragraph-2 {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h3 {
   font-size: 20px;
-  padding:10px;
-  margin-top:10px;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
 }
 
-h4{
-  margin-top:-40px;
-  font-size:15px;
-  margin-left:30px;
+h4 {
+  margin-top: -40px;
+  font-size: 15px;
+  margin-left: 30px;
   margin-bottom: 10px;
-  color:white;
+  color: white;
+  font-family: "Oswald", sans-serif;
 }
-#main-container{
-  background:white;
+.container {
+  background: white;
   margin-top: 60px;
-  margin-bottom:60px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  padding-bottom: 60px;
+  box-shadow: 0 0 3px rgba(1, 1, 1, 1);
+}
+
+button {
+  background-color: #4aaaa5;
+}
+
+@media only screen and (max-width: 600px) {
+ p{
+   text-align: center;
+ }
+
+ 
+
+}
+
+.fa {
   padding: 20px;
-  padding-bottom:80px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
 }
 
-button{
-  background-color:#4aaaa5;
-}
-
-
-footer{
+footer {
   text-align: center;
   border-top: 5px solid #4aaaa5;
-  background-color:rgb(73, 73, 73);
+  background-color: rgb(73, 73, 73);
   padding: 20px;
-  color:white;
+  color: white;
+  font-family: "Oswald", sans-serif;
 }

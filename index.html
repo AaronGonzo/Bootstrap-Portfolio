@@ -1,160 +1,186 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
     <title>About | Aaron Gonzalez</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="col-2"></div>
-            <a class="p-3 mb-2 navbar-brand bg-info text-white col-2" href="index.html">Aaron Gonzalez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item-portfolio">
-                    <a class="nav-link border-right border-left" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="col-2"></div>
+      <a
+        id="name-navbar"
+        class="navbar-brand bg-info text-white"
+        href="index.html"
+        >Aaron Gonzalez</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >About Me<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item-portfolio">
+            <a class="nav-link border-right border-left" href="portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <div class="row border-bottom">
-                <h1>About Me</h1>
+    <div class="container">
+      <h1 class="border-bottom">About Me</h1>
+      <div class="row">
+        <div class="col-3">
+          <div class="card" id="about-me" style="width: 15rem;">
+            <img
+              class="card-img-top"
+              src="assets/AaronHeadshot.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5>Engineer, Teacher, Adventurer</h5>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    <img class="headshot" src="assets/AaronHeadshot.png" alt="Your Name">
-                </div>
-                <div class="col-9">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis,
-                        ac
-                        rhoncus nunc
-                        porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu.
-                        Proin
-                        vel dui
-                        massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin
-                        commodo purus
-                        vitae sollicitudin consectetur.</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <p id="paragraph-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            vestibulum luctus felis, ac rhoncus nunc porttitor condimentum.
+            Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin
+            vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum
+            consectetur euismod. Proin commodo purus vitae sollicitudin
+            consectetur.
+            </p>
+            <p>            Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices,
+            ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar
+            quam eget, egestas mauris.
+            Suspendisse dictum, arcu at convallis faucibus, quam sapien
+            tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius
+            natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus.
+          </p> 
+            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien
+            tincidunt nunc, sit ametegestas nibh tortor et mi. Orci varius
+            natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Bacon ipsum dolor amet beef ribs leberkas burgdoggen
+            brisket capicola corned beef swine.
+            Bacon ipsum dolor amet beef ribs leberkas burgdoggen brisket
+            capicola corned beef swine. Ground round ribeye corned beef chicken
+            rump capicola chuck ham buffalo. Ham hock andouille alcatra turkey
+            pancetta cupim. Corned beef rump ground round kielbasa chuck
+            burgdoggen hamburger andouille short ribs venison cow tail strip
+            steak jowl swine.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="paragraph-2">
+            Bacon ipsum dolor amet beef ribs leberkas burgdoggen brisket
+            capicola corned beef swine. Ground round ribeye corned beef chicken
+            rump capicola chuck ham buffalo. Ham hock andouille alcatra turkey
+            pancetta cupim. Corned beef rump ground round kielbasa chuck
+            burgdoggen hamburger andouille short ribs venison cow tail strip
+            steak jowl swine.
+          </p>
 
-                    <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non,
-                        pretium
-                        odio. Nunc id
-                        eros iaculis, pulvinar quam eget, egestas mauris.</p>
+          <p class="paragraph-2">
+            Flank leberkas hamburger alcatra rump chicken cupim prosciutto
+            ground round sausage swine capicola. Tenderloin biltong cow, tri-tip
+            leberkas sausage t-bone pastrami kielbasa pork belly meatball.
+            Fatback pork chop chicken landjaeger kevin brisket. Tail jowl beef
+            ribs turducken meatloaf andouille shankle bacon fatback spare ribs
+            meatball leberkas strip steak filet mignon ham. Turducken tenderloin
+            sirloin leberkas, frankfurter capicola flank bresaola pastrami.
+          </p>
 
-                    <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet
-                        egestas
-                        nibh tortor
-                        et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus.</p>
-                    <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit ametegestas
-                        nibh tortor
-                        et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus. Bacon ipsum dolor amet beef ribs leberkas burgdoggen brisket capicola corned beef
-                        swine.
-                    </p>
-                </div>
-                <div class="w-100"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Bacon ipsum dolor amet beef ribs leberkas burgdoggen brisket capicola corned beef swine.
-                        Ground
-                        round
-                        ribeye corned beef chicken rump capicola chuck ham buffalo. Ham hock andouille alcatra
-                        turkey
-                        pancetta
-                        cupim. Corned beef rump ground round kielbasa chuck burgdoggen hamburger andouille short
-                        ribs
-                        venison
-                        cow tail strip steak jowl swine.</p>
+          <p class="paragraph-2">
+            Leberkas turducken strip steak, salami pork chop drumstick boudin
+            hamburger beef ribs meatball filet mignon t-bone cupim doner
+            shankle. Beef ribs capicola swine buffalo fatback prosciutto.
+            Prosciutto pork belly boudin ball tip strip steak flank spare ribs
+            bacon biltong venison leberkas pastrami shoulder meatball. Andouille
+            tenderloin bresaola, bacon landjaeger buffalo pastrami flank ribeye
+            jerky ham. Pork chop meatball kielbasa ribeye beef beef ribs
+            meatloaf filet mignon hamburger jowl shankle biltong corned beef
+            chuck ground round. Pork chop biltong kevin, tenderloin kielbasa
+            jowl chuck hamburger strip steak boudin buffalo pork loin beef ribs
+            filet mignon. Meatloaf pork ham, pastrami picanha jowl shank strip
+            steak alcatra salami.
+          </p>
 
-                    <p>Flank leberkas hamburger alcatra rump chicken cupim prosciutto ground round sausage swine
-                        capicola.
-                        Tenderloin biltong cow, tri-tip leberkas sausage t-bone pastrami kielbasa pork belly
-                        meatball.
-                        Fatback
-                        pork chop chicken landjaeger kevin brisket. Tail jowl beef ribs turducken meatloaf andouille
-                        shankle
-                        bacon fatback spare ribs meatball leberkas strip steak filet mignon ham. Turducken
-                        tenderloin
-                        sirloin
-                        leberkas, frankfurter capicola flank bresaola pastrami.</p>
+          <p class="paragraph-2">
+            Kielbasa chicken filet mignon, pork chop pancetta alcatra pork loin
+            shank sirloin doner meatloaf porchetta hamburger. Pork short loin
+            prosciutto boudin, turkey frankfurter bacon jerky burgdoggen. Pig
+            meatball jowl, frankfurter ribeye meatloaf swine andouille flank
+            picanha kevin jerky t-bone. Meatloaf tri-tip meatball pig andouille
+            burgdoggen pork belly doner prosciutto sirloin corned beef.
+            Hamburger spare ribs pork chop, kielbasa boudin tongue shoulder
+            corned beef tri-tip. Cow tongue picanha chicken sirloin. Biltong
+            capicola pork sausage, landjaeger corned beef venison rump chicken.
+          </p>
 
-                    <p>Leberkas turducken strip steak, salami pork chop drumstick boudin hamburger beef ribs
-                        meatball
-                        filet
-                        mignon t-bone cupim doner shankle. Beef ribs capicola swine buffalo fatback prosciutto.
-                        Prosciutto
-                        pork
-                        belly boudin ball tip strip steak flank spare ribs bacon biltong venison leberkas pastrami
-                        shoulder
-                        meatball. Andouille tenderloin bresaola, bacon landjaeger buffalo pastrami flank ribeye
-                        jerky
-                        ham.
-                        Pork
-                        chop meatball kielbasa ribeye beef beef ribs meatloaf filet mignon hamburger jowl shankle
-                        biltong
-                        corned
-                        beef chuck ground round. Pork chop biltong kevin, tenderloin kielbasa jowl chuck hamburger
-                        strip
-                        steak
-                        boudin buffalo pork loin beef ribs filet mignon. Meatloaf pork ham, pastrami picanha jowl
-                        shank
-                        strip
-                        steak alcatra salami.</p>
-
-                    <p>Kielbasa chicken filet mignon, pork chop pancetta alcatra pork loin shank sirloin doner
-                        meatloaf
-                        porchetta hamburger. Pork short loin prosciutto boudin, turkey frankfurter bacon jerky
-                        burgdoggen.
-                        Pig
-                        meatball jowl, frankfurter ribeye meatloaf swine andouille flank picanha kevin jerky t-bone.
-                        Meatloaf
-                        tri-tip meatball pig andouille burgdoggen pork belly doner prosciutto sirloin corned beef.
-                        Hamburger
-                        spare ribs pork chop, kielbasa boudin tongue shoulder corned beef tri-tip. Cow tongue
-                        picanha
-                        chicken
-                        sirloin. Biltong capicola pork sausage, landjaeger corned beef venison rump chicken.</p>
-
-                    <p>Hamburger meatball tenderloin spare ribs drumstick. Jerky pork loin hamburger, ball tip
-                        tongue
-                        turkey
-                        porchetta bresaola flank swine t-bone cupim shank burgdoggen. Cupim biltong prosciutto,
-                        sirloin
-                        brisket
-                        tri-tip boudin landjaeger frankfurter tail rump. Pancetta spare ribs boudin bacon jowl pork
-                        biltong
-                        shank.</p>
-                </div>
-            </div>
-        </section>
+          <p class="paragraph-2">
+            Hamburger meatball tenderloin spare ribs drumstick. Jerky pork loin
+            hamburger, ball tip tongue turkey porchetta bresaola flank swine
+            t-bone cupim shank burgdoggen. Cupim biltong prosciutto, sirloin
+            brisket tri-tip boudin landjaeger frankfurter tail rump. Pancetta
+            spare ribs boudin bacon jowl pork biltong shank.
+          </p>
+        </div>
+      </div>
     </div>
 
     <footer>
-        Copyright &copy;
+        <button href="#" class="btn"><img src="assets/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"></i></button>
+      <br>
+      <br>
+      Copyright &copy;
     </footer>
-</body>
-
+  </body>
 </html>
