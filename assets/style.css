@@ -2,11 +2,14 @@ body {
   background-color: rgba(145, 143, 143, 0.637);
 }
 
-.img-style {
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 10px;
-  margin-top: 20px;
+#headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 1);
 }
 
 #name-navbar {
@@ -14,6 +17,8 @@ body {
   font-size: 30px;
   font-family: "Oswald", sans-serif;
   margin-left: -50px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+  background: whitesmoke;
 }
 
 .card {
@@ -49,18 +54,18 @@ h1 {
   padding-right: 780px;
   padding-left: 20px;
   color: #4aaaa5;
-  border-bottom: 3px black;
+  border-bottom: 5px black;
   font-family: "Oswald", sans-serif;
 }
 
-#about-me{
+#about-me {
   margin-left: 20px;
   background: #4aaaa5;
   color: white;
 }
 
-h5{
-  margin-top:10px;
+h5 {
+  margin-top: 10px;
 }
 
 p {
@@ -69,14 +74,11 @@ p {
   margin-left: 5px;
 }
 
-#paragraph-1{
-  margin-top:30px;
-}
-
-.paragraph-2 {
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
+#paragraph-1 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 h3 {
@@ -95,7 +97,7 @@ h4 {
   font-family: "Oswald", sans-serif;
 }
 .container {
-  background: white;
+  background: whitesmoke;
   margin-top: 60px;
   margin-bottom: 60px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -110,12 +112,9 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
- p{
-   text-align: center;
- }
-
- 
-
+  p {
+    text-align: center;
+  }
 }
 
 .fa {
@@ -128,11 +127,15 @@ button {
   color: white;
 }
 
+#linkedIn {
+  max-width: 32px;
+}
+
 footer {
   text-align: center;
   border-top: 5px solid #4aaaa5;
   background-color: rgb(73, 73, 73);
-  padding: 20px;
+  padding: 30px;
   color: white;
   font-family: "Oswald", sans-serif;
 }
